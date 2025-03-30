@@ -15,3 +15,9 @@ Obs: Será inicializado o Tomcat na portal 8080, o Postgres na 5432 e o Minio na
 Assim que for executado o docker, será iniciado o postgres e já será executado os scripts iniciais para funcionar a aplicação, sendo que estes scripts estão dentro da pasta scritps com o nome "init.sql", foi adicionado uma carga de dados em todas as tabelas, sendo que é criado um usuário chamado "admin" com a senha "admin", utilizado para logar no sistema.
 
 Obs: Para conexão com o min.io nesta versão do genexus, foi necessário a criação de uma lib externa feita em Java, o Jar já esta dentro do War da aplicação, sendo que o código também esta anexado junto a este Git na pasta "integracao-minio".
+
+Para acessar o swagger da aplicação utilize o link:
+
+```
+http://localhost:8080/processo_seplag/swagger-ui/
+```
